@@ -1,0 +1,44 @@
+.nav-top{
+	background-color: #3F3F3F;
+	border:none;
+	border-bottom: 1px solid #2F2F2F;
+
+}
+.nav-main{
+	width:70%;
+	margin:0px auto;
+	font-size: 18px;
+
+}
+.nav-log{
+	font-size: 28px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+}
+/* .nav > li:hover .dropdown-menu {
+	display: block;
+} */
+.nav > li{
+	margin-right: 20px;
+	height:100%;
+}
+.nav-btn{
+	//height:40px;
+	font-size: 16px;
+	background-color:#EA6F5A;
+	color:#fff;
+	margin-top: .5%;
+	/* float: right;
+	display: block; */
+}
+.nav-search{
+	margin-top: 5%;
+	border-radius: 20px;
+	background-color: #4F4F4F;
+	border:none;
+}
+.nav-mid{
+	width:60%;
+	float: left;
+	margin-left: 100px;
+}

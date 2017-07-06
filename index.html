@@ -6,8 +6,14 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$.getJSON('http://wthrcdn.etouch.cn/weather_mini?citykey=101010100&callback=?',function(jsondata){
+			console.log(jsondata);
+		})
+	</script>
 	<style>
 		body{
 			background-color: #3F3F3F;
@@ -37,6 +43,7 @@
 	        	<form>
 		        <div class="form-group">
 		          <input type="text" class="form-control nav-search" placeholder="搜索">
+		          <span class="glyphicon glyphicon-search ic-search"></span>
 		        </div>
 		       
 		      	</form>
@@ -61,5 +68,32 @@
 	  </div><!-- /.container-fluid -->
 	  <div class="clear"></div>
 	</nav>
+	<div>
+		<div class="model">
+			<p class="model-p">酸辣粉好看撒金凤花开萨芬还是卡法思考粉红丝带快捷方式咖啡壶额话费卡防洪墙行风建设卡夫is的负荷</p>
+			<ul id="parents">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+			<div class="box">
+			<p class="fill-available">但萨哈夫电话费看撒覅U暗示法赛飞</p>
+			</div>
+		</div>
+		<canvas id="myCanvas" width='1900' height='500'>
+		</canvas>
+		<div id="animation">
+			<ul id="content">
+				<li>
+					 <div class="wrapper">
+			            <img src="images/a.jpg">
+			            <span class="information">
+			              <strong>Contact Form</strong> The easiest way to add a contact form to your shop.
+			            </span>
+			        </div>
+				</li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>

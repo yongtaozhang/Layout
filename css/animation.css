@@ -1,0 +1,60 @@
+#content li,#content .wrapper,#content li img,#content li span{
+	width:300px;
+	height:150px;
+}
+#content li{
+
+	cursor:pointer;
+	-webkit-perspective:4000px;
+	width:300px;
+	heigth:150px;
+	
+}
+#content .wrapper{
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 0.6s;
+}
+#content li img{
+	position: absolute;
+	top:0;
+	border-radius: 3px;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+	-webkit-transform: translateZ(75px);
+	-webkit-transition: all 0.6s;
+}
+#content li span{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(236, 241, 244, 1)), color-stop(100%, rgba(190, 202, 217, 1)));
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	border-radius: 15px;
+	display: block;
+	font-size: 12px;
+	width:300px;
+	height:150px;
+	box-shadow: none;
+	padding:12px;
+	-webkit-transform: rotateX(-90deg) translateZ(75px);
+	-webkit-transition: all 0.6s;
+}
+#content li:hover .wrapper{
+	-webkit-transform: rotateX(90deg);
+}
+#content li:hover img
+{
+    box-shadow: none;
+    border-radius: 15px;
+}
+
+#content li:hover span
+{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+#animation{
+	position: absolute;
+	top:200px;
+	left:500px;
+}
